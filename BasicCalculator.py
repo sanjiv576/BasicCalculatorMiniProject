@@ -25,8 +25,7 @@ def button_click_number(number):
 
 
 def button_click_equal():
-    secondNumber = screenEntry.get()
-    screenEntry.delete(0, END)
+    pass
 
 
 def button_click_delete():  # need to be changed
