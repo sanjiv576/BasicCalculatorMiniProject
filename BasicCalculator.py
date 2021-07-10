@@ -3,7 +3,6 @@ from tkinter import *
 from tkinter.font import *
 
 calculator = Tk()
-#calculator.geometry("390x550")
 
 # giving title
 calculator.title("Basic Calculator")
