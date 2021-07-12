@@ -26,5 +26,5 @@ Basic Calculator application is a modified version of the calculators, which sim
   <br>
   
  
-<p align = "right"><img src=""  style="width: 20%; height: 200px; float:right;" border="4" alt="Sorry! an image can't find">
+<p align = "right"><img src="https://github.com/sanjiv576/BasicCalculatorMiniProject/blob/master/images/2-feature.png"  style="width: 20%; height: 200px; float:right;" border="4" alt="Sorry! an image can't find">
   <br>
