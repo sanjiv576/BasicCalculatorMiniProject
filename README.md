@@ -40,5 +40,5 @@ Basic Calculator application is a modified version of the calculators, which sim
 Sanjiv Shrestha <br> 
 Student ID: 210205 <br>
 Batch: C30B <br>
-Email: shresthasanjiv576@gmail.com <br>
+Email ID: shresthasanjiv576@gmail.com <br>
 </strong>
