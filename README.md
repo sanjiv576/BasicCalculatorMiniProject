@@ -26,7 +26,7 @@ Basic Calculator application is a modified version of the calculators, which sim
   <br>
   
  
-<p align = "right"><img src="https://github.com/sanjiv576/BasicCalculatorMiniProject/blob/master/images/2-feature.png" style="width: 20%; height: 100px; float:right;" border="4" alt="Sorry! an image can't find">{:height="700px" width="400px"}
+<p align = "right"><img src="https://github.com/sanjiv576/BasicCalculatorMiniProject/blob/master/images/2-feature.png" style="width: 20%; height: 100px; float:right;" border="4" alt="Sorry! an image can't find">
   <br>
   
   <p align = "right"><img src="https://github.com/sanjiv576/BasicCalculatorMiniProject/blob/master/images/3-feature.png" style="width: 20%; height: 100px; float:right;" border="4" alt="Sorry! an image can't find">
@@ -39,6 +39,6 @@ Basic Calculator application is a modified version of the calculators, which sim
 <strong>
 Sanjiv Shrestha <br> 
 Student ID: 210205 <br>
-Batch: 30CB <br>
+Batch: C30B <br>
 Email: shresthasanjiv576@gmail.com <br>
 </strong>
