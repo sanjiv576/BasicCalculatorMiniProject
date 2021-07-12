@@ -15,6 +15,8 @@ nextFont = Font(size=22)
 screenEntry = Entry(calculator, width=27, borderwidth=5)
 screenEntry.grid(row=0, column=0, columnspan=5, padx=15, pady=15, ipadx=20, ipady=20)
 screenEntry['font'] = nextFont
+
+
 # functions
 
 
@@ -39,11 +41,8 @@ def button_click_allClear():
 def button_click_equal():  # need to be changed
     screenEntry.delete(0, END)
 
-def button_add():
-    first_number = screenEntry.get()
-    global f_num
-    f_num = int(first_number)
-    screenEntry.delete(0, END)
+
+
 # Creating digit buttons and entry fields
 
 button_click_pi = Button(calculator, text="π", padx=25, pady=8, highlightbackground="yellow", fg="black", command=lambda: button_click_number('π'))
@@ -113,9 +112,9 @@ button_click_AC['font'] = myFont
 button_click_divide = Button(calculator, text="÷", padx=25, pady=8, highlightbackground="green", fg="black", command=lambda: button_click_number('÷'))
 button_click_divide.grid(row=4, column=3)
 button_click_divide['font'] = myFont
-button_click_multiple = Button(calculator, text="x", padx=25, pady=8, highlightbackground="#008000", fg="black", command=lambda: button_click_number('x'))
-button_click_multiple.grid(row=4, column=4)
-button_click_multiple['font'] = myFont
+button_click_multiply = Button(calculator, text="x", padx=25, pady=8, highlightbackground="#008000", fg="black", command=lambda: button_click_number('x'))
+button_click_multiply.grid(row=4, column=4)
+button_click_multiply['font'] = myFont
 
 button_click_plus = Button(calculator, text="+", padx=25, pady=8, highlightbackground="#008000", fg="#000000", command=lambda: button_click_number('+'))
 button_click_plus.grid(row=6, column=3)
@@ -127,4 +126,4 @@ button_click_minus['font'] = myFont
 button_click_equally = Button(calculator, text="=", padx=68, pady=40, highlightbackground="blue", fg="black", command=button_click_equal)
 button_click_equally.grid(row=8, column=3, rowspan=2, columnspan=2)
 button_click_equally['font'] = myFont
-mainloop()
+calculator.mainloop()
